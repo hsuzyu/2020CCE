@@ -1,6 +1,6 @@
 # 2020CCE
 
-## 第一題
+## 第一題 找零錢
 ```C
 #include <stdio.h>
 int main()
@@ -11,7 +11,7 @@ int main()
 }
 ```
 
-## 第二題
+## 第二題 因數個數
 ```C
 #include <stdio.h>
 int main()
