@@ -16,7 +16,7 @@ int main()
 	}
 	}
 	c=e/d;
-	printf("§¡¼Ğ:%.1f\n",b);
-	printf("«e¼Ğ:%.1f\n",c);
+	printf("Â§Â¡Â¼Ã:%.1f\n",b);
+	printf("Â«eÂ¼Ã:%.1f\n",c);
 }
 
