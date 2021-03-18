@@ -133,7 +133,7 @@ int main()
 }
 ```
 
-## 第五題 進位轉十進位
+## 第五題 二進位轉十進位
 ```C
 #include <stdio.h>
 int main()
@@ -172,17 +172,4 @@ int main()
 	printf("均標:%.1f\n",b);
 	printf("前標:%.1f\n",c);
 }
-
-
-```## 第題 
-```C
-#include <stdio.h>
-int main()
-{
-	int a, b;
-	scanf("%d%d",&a ,&b);
-	if(a==b) printf("Enter two numbers:  It is a square ");
-	else printf("Enter two numbers:  It is not a square ");
-}
-```
 
