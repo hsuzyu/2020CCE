@@ -138,6 +138,47 @@ int main()
 #include <stdio.h>
 int main()
 {
+	char c[4];
+	int a=0, n=1;
+	scanf("%s",&c);
+	for(int i=3; i>=0; i--){
+		a+=(c[i]-'0')*n;
+		n*=2;
+	}
+	printf("%d\n",a);
+}
+```
+
+## 第六題 均標與前標計算
+```C
+#include <stdio.h>
+int main()
+{
+	int n, a[100];
+	float b, c,t=0, d=0, e=0;
+	scanf("%d",&n);
+	for(int i=0; i<n; i++){
+		scanf("%d",&a[i]);
+		t+=a[i];
+	}
+	b=t/n;
+	for(int i=0; i<n; i++){
+	if(a[i]>=b){
+		d++;
+		e+=a[i];
+	}
+	}
+	c=e/d;
+	printf("均標:%.1f\n",b);
+	printf("前標:%.1f\n",c);
+}
+
+
+```## 第題 
+```C
+#include <stdio.h>
+int main()
+{
 	int a, b;
 	scanf("%d%d",&a ,&b);
 	if(a==b) printf("Enter two numbers:  It is a square ");
