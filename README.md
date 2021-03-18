@@ -66,8 +66,48 @@ int main()
 	printf("%d %d\n", a/c, b/c);
 }
 ```
+# 第二周
+## 第一題 讀入整數反序列印
+```C
+#include <stdio.h>
+int main()
+{
+	int n[1000], a=0;
+	for(int i=0; i<1000; i++){
+		scanf("%d",&n[i]);
+		if(n[i]==0){
+		a=i;
+		break;
+		}
+	}
+	for(int i=a-1; i>=0; i--){
+		printf("%d ",n[i]);
+	}
+	printf("\n");
+}
+```
 
-## 第六題
+## 第二題 A的B次方函數
+```C
+#include <stdio.h>
+int MYPOWER(int a,int b)
+{
+	int n=1;
+	for(int i=b; i>0; i--){
+		n*=a;
+	}
+	return n;
+}
+int main(void)
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	printf("[%d]",MYPOWER(a,b));
+	return 0;
+}
+```
+
+## 第三題 漸增數列相加
 ```C
 #include <stdio.h>
 int main()
@@ -75,36 +115,33 @@ int main()
 	int n, a=0;
 	scanf("%d",&n);
 	for(int i=1; i<=n; i++){
-		if(n%i==0)a++;
+		a+=i*(i-1);
 	}
 	printf("%d\n",a);
 }
 ```
 
-## 第七題
+## 第四題 判別正方形
 ```C
 #include <stdio.h>
 int main()
 {
-	int n, a=0;
-	scanf("%d",&n);
-	for(int i=1; i<=n; i++){
-		if(n%i==0)a++;
-	}
-	printf("%d\n",a);
+	int a, b;
+	scanf("%d%d",&a ,&b);
+	if(a==b) printf("Enter two numbers:  It is a square ");
+	else printf("Enter two numbers:  It is not a square ");
 }
 ```
 
-## 第八題
+## 第五題 進位轉十進位
 ```C
 #include <stdio.h>
 int main()
 {
-	int n, a=0;
-	scanf("%d",&n);
-	for(int i=1; i<=n; i++){
-		if(n%i==0)a++;
-	}
-	printf("%d\n",a);
+	int a, b;
+	scanf("%d%d",&a ,&b);
+	if(a==b) printf("Enter two numbers:  It is a square ");
+	else printf("Enter two numbers:  It is not a square ");
 }
 ```
+
