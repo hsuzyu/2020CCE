@@ -15,7 +15,7 @@ int main(){
   cout<<"["<<max_digit(n)<<"]";
   return 0;
 }
-/* ¤W¤èC++ ªº main ¨ç¼Æ µ¥»ù©ó ¤U¤è C ªº main ¨ç¼Æ
+/* ä¸Šæ–¹C++ çš„ main å‡½æ•¸ ç­‰åƒ¹æ–¼ ä¸‹æ–¹ C çš„ main å‡½æ•¸
 int main(void){
   int n;
   scanf("%d", &n);
