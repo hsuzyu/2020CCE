@@ -418,9 +418,14 @@ int main()
 #include <stdio.h>
 int main()
 {
-	int a, b;
-	scanf("%d%d",&a ,&b);
-	printf("%d\n",a/b);
+	int n, a=0, b;
+	scanf("%d",&n);
+	b=n;
+	while(n>=1){
+		a=a*10+n%10;
+		n/=10;
+	}
+	printf("%d+%d=%d\n",b ,a ,b+a);
 }
 ```
 
