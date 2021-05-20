@@ -22,7 +22,7 @@ int main(){
   cout<<(max(a,b,c,d)-min(a,b,c,d));
   return 0;
 }
-/* ¤W¤èC++ main ¨ç¦¡ µ¥¦P©ó ¤U¤è C ªº main ¨ç¦¡
+/* ä¸Šæ–¹C++ main å‡½å¼ ç­‰åŒæ–¼ ä¸‹æ–¹ C çš„ main å‡½å¼
 int main(void){
   int a, b, c, d;
   scanf("%d %d %d %d", &a, &b, &c, &d);
