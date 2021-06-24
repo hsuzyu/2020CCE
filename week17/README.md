@@ -30,7 +30,7 @@ void mousePressed(){
   line=line+"a";
 }
 ```
-## 1.
+## 3.
 ```JAVA
 void setup(){
   size(400,200);
@@ -47,7 +47,7 @@ void keyPressed(){
   line=line+key;
 }
 ```
-## 1.
+## Last.
 ```JAVA
 void setup(){
   size(400,200);
